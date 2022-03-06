@@ -1,0 +1,155 @@
+body {
+	
+	background: lightgrey;
+	color: black;
+	font-family: Hubballi, Arial, sans-serif;
+}
+/*HEADER************************************************************************************ */
+#header-nav {
+	background: #2b2b2b;
+	border-radius: 0;
+	border: 0;
+}
+/*HEADER BRAND*******************************************************************************/
+.navbar-brand {
+	padding-top: 25px;
+	height: 150px;
+}
+.navbar-brand h1{
+	color: lightgrey;
+	font-weight: bolder;
+	margin: 10px 0 0 10px ;
+	line-height: 0.75;
+	font-family: Arial, serif;
+	font-size: 3em;
+  	text-shadow: 1px 1px gray;
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+  text-decoration: none;
+
+}
+/*NAVIGATION BAR***********************************************************************************/
+#collapsable-nav{
+	border: 2px solid #2b2b2b;
+}
+#nav-list {
+ margin-top: 0;
+ margin-bottom: 0;
+ background: #575757;
+}
+#nav-list a {
+  color: lightgrey;
+  text-align: center;
+  font-size: 1.8em;
+  border: 2px solid #2b2b2b;
+
+}
+#nav-list a:hover {
+  background: lightgrey;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -50px;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+/*END OF HEADER*******************************************************************************/
+/*MAIN CONTENT***********************************************************************************/
+.main-content {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+/*MENU TITLE*******************************************************************************/
+#menu-title {
+	text-transform: uppercase;
+	margin-top: 5px;
+	padding-top: 10px;
+	font-size: 2.5em;
+	padding-bottom: 15px;
+}
+/*SECTION***********************************************************************************/
+.row section {
+	box-shadow: 5px 5px 5px #2b2b2b;
+	margin-bottom: 30px;
+	height: 1000px;
+	overflow: hidden;
+}
+#chicken a, #beef a, #sushi a{
+	font-size: 1.8em;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: inherit;
+
+}
+#chicken a:hover, #beef a:hover, #sushi a:hover,#chicken a:focus, #beef a:focus, #sushi a:focus
+{
+  text-decoration: none;
+
+}
+
+#chicken p, #beef p, #sushi p{
+	padding-top: 15px;
+	margin: auto;
+	font-size: 1.3em;
+	font-style: italic;
+	overflow: hidden;
+}
+
+#chicken {
+	background: lightblue;
+}
+#beef {
+	background: darkcyan;
+}
+#sushi {
+	background: yellowgreen;
+}
+/*END OF MAIN CONTENT****************************************************************/
+/*FOOTER**************************************************************************/
+#thank
+{
+	font-size: 3em;
+	margin-bottom: 50px;
+}
+/*END OF FOOTER******************************************************************/
+
+/*MEDIA QUERIES: MEDIUM DEVICES AND SMALL DEVICES MD SM*****************************************/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+
+}
+/*XTRA SMALL***************************************************************/
+@media (max-width: 767px)
+{
+	.navbar-brand {
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		font-size: 2.4em;
+		margin: 0;
+	}
+	.main-content {
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+
+	#chicken a, #beef a, #sushi a {
+		font-size: 1.8em;
+	}
+
+}
+
+
+
+
+
